@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'flex02';
+
+export class AppComponent implements OnInit, AfterViewInit
+{
+  ngOnInit(): void 
+  {}
+  
+  ngAfterViewInit(): void 
+  {}
+
+  isVisibleOnMobile (): void
+  {}
+  
 }
