@@ -7,6 +7,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from './core/material.module';
 import { ChartComponent } from './chart/chart.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ChartComponent } from './chart/chart.component';
     FlexLayoutModule,
     FormsModule,
     ReactiveFormsModule,
-    MaterialModule
+    MaterialModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
